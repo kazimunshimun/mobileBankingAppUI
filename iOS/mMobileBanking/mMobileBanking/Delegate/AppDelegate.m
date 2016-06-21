@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"Avenir" size:17.0]];
+  //  [[UIButton appearance] setFont:[UIFont fontWithName:@"Avenir" size:17.0]];
     return YES;
 }
 
