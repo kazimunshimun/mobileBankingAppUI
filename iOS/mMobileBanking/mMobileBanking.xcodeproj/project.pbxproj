@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AF52611D1D0CD00008D34F /* MBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52601D1D0CD00008D34F /* MBUser.m */; };
+		84AF52641D1D0D0C0008D34F /* MBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52631D1D0D0C0008D34F /* MBAccount.m */; };
+		84AF52671D1D0D310008D34F /* MBCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52661D1D0D310008D34F /* MBCard.m */; };
+		84AF526A1D1D2F140008D34F /* MBBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52691D1D2F140008D34F /* MBBranch.m */; };
+		84AF526D1D1D2F450008D34F /* MBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF526C1D1D2F450008D34F /* MBMessage.m */; };
+		84AF52701D1D2F800008D34F /* MBLoan.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF526F1D1D2F800008D34F /* MBLoan.m */; };
+		84AF52731D1D2F8F0008D34F /* MBStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52721D1D2F8F0008D34F /* MBStock.m */; };
+		84AF52761D1D2F9D0008D34F /* MBTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52751D1D2F9D0008D34F /* MBTransaction.m */; };
+		84AF52791D1D30FC0008D34F /* MBStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF52781D1D30FC0008D34F /* MBStatement.m */; };
+		84AF527B1D1D55400008D34F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF527A1D1D55400008D34F /* CoreLocation.framework */; };
 		CD9E41351D181C9D004BCBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9E41341D181C9D004BCBCD /* main.m */; };
 		CD9E413E1D181C9D004BCBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9E413C1D181C9D004BCBCD /* Main.storyboard */; };
 		CD9E41401D181C9D004BCBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9E413F1D181C9D004BCBCD /* Assets.xcassets */; };
@@ -16,6 +26,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84AF525F1D1D0CD00008D34F /* MBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUser.h; sourceTree = "<group>"; };
+		84AF52601D1D0CD00008D34F /* MBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBUser.m; sourceTree = "<group>"; };
+		84AF52621D1D0D0C0008D34F /* MBAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAccount.h; sourceTree = "<group>"; };
+		84AF52631D1D0D0C0008D34F /* MBAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAccount.m; sourceTree = "<group>"; };
+		84AF52651D1D0D310008D34F /* MBCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCard.h; sourceTree = "<group>"; };
+		84AF52661D1D0D310008D34F /* MBCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCard.m; sourceTree = "<group>"; };
+		84AF52681D1D2F140008D34F /* MBBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBranch.h; sourceTree = "<group>"; };
+		84AF52691D1D2F140008D34F /* MBBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBranch.m; sourceTree = "<group>"; };
+		84AF526B1D1D2F450008D34F /* MBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMessage.h; sourceTree = "<group>"; };
+		84AF526C1D1D2F450008D34F /* MBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMessage.m; sourceTree = "<group>"; };
+		84AF526E1D1D2F800008D34F /* MBLoan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLoan.h; sourceTree = "<group>"; };
+		84AF526F1D1D2F800008D34F /* MBLoan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLoan.m; sourceTree = "<group>"; };
+		84AF52711D1D2F8F0008D34F /* MBStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStock.h; sourceTree = "<group>"; };
+		84AF52721D1D2F8F0008D34F /* MBStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStock.m; sourceTree = "<group>"; };
+		84AF52741D1D2F9D0008D34F /* MBTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTransaction.h; sourceTree = "<group>"; };
+		84AF52751D1D2F9D0008D34F /* MBTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTransaction.m; sourceTree = "<group>"; };
+		84AF52771D1D30FC0008D34F /* MBStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStatement.h; sourceTree = "<group>"; };
+		84AF52781D1D30FC0008D34F /* MBStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStatement.m; sourceTree = "<group>"; };
+		84AF527A1D1D55400008D34F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CD9E41301D181C9D004BCBCD /* mMobileBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mMobileBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9E41341D181C9D004BCBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD9E413D1D181C9D004BCBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AF527B1D1D55400008D34F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,7 @@
 			children = (
 				CD9E41321D181C9D004BCBCD /* mMobileBanking */,
 				CD9E41311D181C9D004BCBCD /* Products */,
+				84AF527A1D1D55400008D34F /* CoreLocation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +149,24 @@
 		CD9E414E1D181D71004BCBCD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84AF525F1D1D0CD00008D34F /* MBUser.h */,
+				84AF52601D1D0CD00008D34F /* MBUser.m */,
+				84AF52621D1D0D0C0008D34F /* MBAccount.h */,
+				84AF52631D1D0D0C0008D34F /* MBAccount.m */,
+				84AF52651D1D0D310008D34F /* MBCard.h */,
+				84AF52661D1D0D310008D34F /* MBCard.m */,
+				84AF52681D1D2F140008D34F /* MBBranch.h */,
+				84AF52691D1D2F140008D34F /* MBBranch.m */,
+				84AF526B1D1D2F450008D34F /* MBMessage.h */,
+				84AF526C1D1D2F450008D34F /* MBMessage.m */,
+				84AF526E1D1D2F800008D34F /* MBLoan.h */,
+				84AF526F1D1D2F800008D34F /* MBLoan.m */,
+				84AF52711D1D2F8F0008D34F /* MBStock.h */,
+				84AF52721D1D2F8F0008D34F /* MBStock.m */,
+				84AF52741D1D2F9D0008D34F /* MBTransaction.h */,
+				84AF52751D1D2F9D0008D34F /* MBTransaction.m */,
+				84AF52771D1D30FC0008D34F /* MBStatement.h */,
+				84AF52781D1D30FC0008D34F /* MBStatement.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,7 +263,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9E41541D181D9A004BCBCD /* ViewController.m in Sources */,
+				84AF52731D1D2F8F0008D34F /* MBStock.m in Sources */,
+				84AF52641D1D0D0C0008D34F /* MBAccount.m in Sources */,
+				84AF526D1D1D2F450008D34F /* MBMessage.m in Sources */,
+				84AF52791D1D30FC0008D34F /* MBStatement.m in Sources */,
+				84AF526A1D1D2F140008D34F /* MBBranch.m in Sources */,
+				84AF52701D1D2F800008D34F /* MBLoan.m in Sources */,
+				84AF52611D1D0CD00008D34F /* MBUser.m in Sources */,
 				CD9E41351D181C9D004BCBCD /* main.m in Sources */,
+				84AF52761D1D2F9D0008D34F /* MBTransaction.m in Sources */,
+				84AF52671D1D0D310008D34F /* MBCard.m in Sources */,
 				CD9E41571D181DB0004BCBCD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +422,7 @@
 				CD9E41491D181C9D004BCBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
