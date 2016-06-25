@@ -17,8 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mMobileBanking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzn-0k-I9v">
-                                <rect key="frame" x="164" y="275" width="273" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Coh-4R-cQ5">
+                                <rect key="frame" x="230" y="127" width="140" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="VBM-le-8yU"/>
+                                    <constraint firstAttribute="height" constant="140" id="qto-Qa-5d8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mBanking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzn-0k-I9v">
+                                <rect key="frame" x="220" y="275" width="161" height="50"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -27,6 +34,8 @@
                         <color key="backgroundColor" red="0.21568627450980393" green="0.50980392156862742" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Fzn-0k-I9v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qiv-el-gSW"/>
+                            <constraint firstItem="Coh-4R-cQ5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fxy-Tr-tyH"/>
+                            <constraint firstItem="Fzn-0k-I9v" firstAttribute="top" secondItem="Coh-4R-cQ5" secondAttribute="bottom" constant="8" id="uQp-Tm-A3w"/>
                             <constraint firstItem="Fzn-0k-I9v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xmk-OQ-dag"/>
                         </constraints>
                     </view>
@@ -36,4 +45,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logoIcon" width="191" height="192"/>
+    </resources>
 </document>
