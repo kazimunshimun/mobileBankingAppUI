@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "fingerprint-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "fingerprint-1.png",
       "scale" : "2x"
     },
     {
